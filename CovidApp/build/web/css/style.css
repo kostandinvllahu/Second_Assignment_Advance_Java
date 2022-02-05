@@ -1,0 +1,47 @@
+body{
+    padding-top: 56px;
+}
+.jumbotron {
+    background: url("../assets/bg.png") no-repeat center;
+}
+.btn-primary {
+    background-color: #c60063;
+    border-color: #c60063;
+}
+.btn-secondary {
+    background-color: transparent;
+    border-color: #c60063;
+    color: #c60063;
+}
+#contact {
+    background: rgba(40, 40, 40, 0.144) no-repeat center;
+}
+footer div p{
+    color:#c60063 !important;
+    font-weight: bolder;
+}
+html{
+    user-select: none;
+    transition: all 0.23s ease-in-out;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.active{
+    font-weight: bolder;
+    
+}
+#logo{
+    animation:rotate_slow 15s infinite linear;
+
+}
+@keyframes rotate_slow {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+transform: rotateZ(359deg);
+    }
+}
+.active>*{
+    color: #c60063 !important;
+}
